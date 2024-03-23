@@ -51,7 +51,7 @@
     margin: 25px 0px;
 }
 
-.margin.big{
+.margin-big{
     margin: 0 20%;
 }
 .plus-col{
@@ -124,7 +124,7 @@ footer{
 }
 
 .logo{
-    width: 33%;
+    width: 40%;
     margin-top: 10px;
 }
 .text-left{
@@ -167,6 +167,7 @@ footer{
     padding: 7px 12px;
     border-radius: 10px;
     font-size: 10px;
+    border: none;
 }
 
 .jumbo{
@@ -176,9 +177,13 @@ footer{
     background-position: center;
 }
 .buttons{
-    background-color: brown;
-    padding: 3px;
+    background-color: #8EA1E1;
+    padding: 13px;
     margin: 15px 0;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 13px;
 }
 
 .flex-betw{
@@ -386,6 +391,10 @@ h1{
 
 .margin-between{
     margin: 10px 0;
+}
+
+.last-logo{
+    width: 12%;
 }
 /* FINE CLASSI UTILITY */
 
