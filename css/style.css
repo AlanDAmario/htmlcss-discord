@@ -51,14 +51,15 @@
     margin: 25px 0px;
 }
 
+.margin.big{
+    margin: 0 20%;
+}
 .plus-col{
-    background-color: coral;
     width: calc(100% / 6 * 2);
     margin: 15px 0 25px 0;
 }
 
 .col{
-    background-color: aquamarine;
     width: calc(100% / 6);
     margin: 15px 0 25px 0 ;
 }
@@ -106,23 +107,15 @@ body{
 .padding-30{
     padding: 30px;
 }
-.col-pink{
-    background-color: pink;
-}
+
 
 .bg-grey{
     background-color: #E7E7E7;
 }
 
-.col-green{
-    background-color: green;
-    height: 600px;
-}
 
-
-.bg-black{
-    background-color: black;
-
+footer{
+    background-color: #23272A;
 }
 
 .text-none{
@@ -165,7 +158,7 @@ body{
     padding: 10px;
 }
 
-li a{
+.pad-list{
     padding: 0px 20px;
 }
 
@@ -311,6 +304,7 @@ h1{
 
 .h3-center{
     text-align: center;
+    font-weight: bold;
 }
 
 .stars{
@@ -331,7 +325,67 @@ h1{
     background-color: #8EA1E1;
     color: white;
     border: none;
+}
 
+.h3-left{
+    color: #738ADB;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 9% 27% 10px 33%;
+}
+
+.ita-logo-text-margin{
+    margin: 2% 0 4% 33%;
+}
+
+.language{
+    width: 13px;
+}
+
+.small-text{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.social-x{
+    width: 15px;
+    margin: 0 8px;
+}
+.social{
+    width: 15px;
+    margin: 0 8px;
+    filter: invert(100%);
+    color: white;
+}
+
+.margin-left-social{
+    margin-left: 30.5%;
+}
+
+.bold-margin{
+    margin: 20% 0 50% 0;
+}
+.bold-margin a{
+    text-decoration: none;
+}
+
+.bold-margin li{
+    list-style-type: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.bold-margin li a .text-white{
+    padding-right: 80px;
+}
+.text-cobalt{
+    color: #677BC1;
+}
+
+
+.margin-between{
+    margin: 10px 0;
 }
 /* FINE CLASSI UTILITY */
 
