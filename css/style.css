@@ -43,6 +43,9 @@
     margin: 25px 0px;
 }
 
+.margin-top-10{
+    margin-top: 8%;
+}
 .width-100{
     width: 100%;
     margin: 25px 0px;
@@ -108,7 +111,7 @@ body{
 }
 
 .bg-grey{
-    background-color: grey;
+    background-color: #E7E7E7;
 }
 
 .col-green{
@@ -177,6 +180,7 @@ li a{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/jumbo.png);
+    background-position: center;
 }
 .buttons{
     background-color: brown;
@@ -229,7 +233,63 @@ h1{
     margin-left: 2%;
 }
 
+.frog{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+}
 
+.text-h2{
+    font-size: 35px;
+}
+
+.margin-right{
+    margin-right: 50%;
+}
+
+.info-text{
+    font-size: small;
+    margin-bottom: 40%;
+}
+
+.big-wave{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(1141%) hue-rotate(194deg) brightness(117%) contrast(81%);
+}
+
+.wizard{
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+.margin-left{
+    margin-left: 30%;
+}
+
+.text-right-black{
+    margin: 0 30%;
+    text-align: left;
+}
+
+.big-wave-rotate{
+    height: 100px;
+    transform: rotate(180deg);
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(1141%) hue-rotate(194deg) brightness(117%) contrast(81%);
+}
+
+.troll{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+}
 
 /* FINE CLASSI UTILITY */
 
